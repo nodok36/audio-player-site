@@ -1,17 +1,27 @@
-
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <title>Audio Player</title>
+  <meta charset="UTF-8">
+  <title>Audio Player</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+    }
+    audio {
+      width: 100%;
+      max-width: 400px;
+      margin-bottom: 20px;
+    }
+  </style>
 </head>
 <body>
-    <h1>Audio Player</h1>
-    <p>①</p>
-    <audio controls><source src="1.m4a" type="audio/mp4"></audio>
-    <p>②</p>
-    <audio controls><source src="2.m4a" type="audio/mp4"></audio>
-    <p>③</p>
-    <audio controls><source src="3.mp3" type="audio/mpeg"></audio>
+  <h1>Audio Player</h1>
+  <p>①</p>
+  <audio controls src="1.m4a"></audio>
+  <p>②</p>
+  <audio controls src="2.m4a"></audio>
+  <p>③</p>
+  <audio controls src="3.mp3"></audio>
 </body>
 </html>
